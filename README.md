@@ -30,3 +30,36 @@ src/
 ├── Task.java # Abstract base class
 ├── NormalTask.java # Inherits Task, represents a simple task
 └── PriorityTask.java # Inherits Task, adds priority feature
+---
+
+## ▶️ How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/todoapp-java-console.git
+   cd todoapp-java-console/src
+
+2.Compile the code:
+javac com/todo/*.java
+
+Run the program:
+
+3.Run the program:
+java com.todo.ToDoApp
+
+Sample Output
+--- TO-DO MENU ---
+1. Add Normal Task
+2. Add Priority Task
+3. List Tasks
+4. Mark Task Completed
+5. Delete Task
+6. Exit
+Choose an option: 1
+Enter task title: Complete Assignment
+Normal task added.
+
+--- TO-DO MENU ---
+3
+--- Task List ---
+1. [Pending] Complete Assignment
+
