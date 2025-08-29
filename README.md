@@ -41,8 +41,6 @@ src/
 2.Compile the code:
 javac com/todo/*.java
 
-Run the program:
-
 3.Run the program:
 java com.todo.ToDoApp
 
